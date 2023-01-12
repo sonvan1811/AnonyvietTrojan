@@ -1,5 +1,7 @@
 import os
 import time
+import subprocess
+import sys
 
 if (sys.platform.startswith("linux")) :
         if (subprocess.getoutput("whoami")) != "root" :
